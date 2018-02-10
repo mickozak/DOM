@@ -14,5 +14,5 @@ document.querySelectorAll('');
 
 //For example:
 
-let buttonDeete = document.querySelector('');
+let buttonDelete = document.querySelector('.buttonDelete');
 
