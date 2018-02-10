@@ -10,4 +10,9 @@ document.querySelectorAll('');
 
 //getElementsByClassName i getElementByTagName - they turn so-called "living collections". 
 //If we place such a collection under a variable, it will automatically update depending on the elements on the page.
+//We try to save downloaded elements to a variable.
+
+//For example:
+
+let buttonDeete = document.querySelector('');
 
