@@ -1,5 +1,5 @@
 Issues:
 - appealing to objects,
-- element_properties,
--
+- element properties,
+- creating and deleting (replace, appenchild, ...)
 -
