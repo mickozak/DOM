@@ -9,7 +9,11 @@ let objOne = document.createElement('div');
     objOne.classList.add('objElement');
     objOne.style.color = 'red';
 
-//The element can be inserted into the document via parentElement.appendChild() - for example:
+//The element can be inserted into the document via parentElement.appendChild(newElement) - for example:
 
- let div = document.querySelector('.firstParagraph');
+let div = document.querySelector('.firstParagraph');
     div.appendChild(objOne);
+
+//Removing elements via parentNode.removeChild(element) - for example:
+
+    div.removeChild(objOne);
