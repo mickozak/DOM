@@ -24,7 +24,7 @@ element.removeEventListener('click', showMeIt);
 
 element.click()
 
-//
+//Mouse events
 
 /*
 mousedown - the mouse button has been pressed
@@ -35,3 +35,7 @@ mousemove - the cursor moves around the element
 mouseover - the cursor is on the element
 mouseout - the cursor has left the elemen
 */
+
+
+
+element.addEventListener('mousedown', showMeIt);
