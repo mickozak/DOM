@@ -13,7 +13,13 @@ element.addEventListener('click', function(){
     this.style.color='red';
 });
 
+//Avoid anonymous functions.
+
 //.element.removeEventListener() is used to de-register functions from a given event, 
 //it accepts the same arguments that were used to register the given event.
 
 element.removeEventListener('click', showMeIt);
+
+//Calling up the event.
+
+element.click()
