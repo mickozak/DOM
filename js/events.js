@@ -23,3 +23,15 @@ element.removeEventListener('click', showMeIt);
 //Calling up the event.
 
 element.click()
+
+//
+
+/*
+mousedown - the mouse button has been pressed
+mouseup - the mouse button has been released
+click - the mouse button has been pressed and released
+dblclick - double click
+mousemove - the cursor moves around the element
+mouseover - the cursor is on the element
+mouseout - the cursor has left the elemen
+*/
