@@ -5,6 +5,10 @@
 
 let element = document.querySelector('.elem');
 
+function showMeIt(){
+    console.log('You clicked')
+}
+
 element.addEventListener('click', showMeIt);
 
 //or
@@ -36,6 +40,8 @@ mouseover - the cursor is on the element
 mouseout - the cursor has left the elemen
 */
 
-
+function showMeIt(){
+    console.log('You clicked')
+}
 
 element.addEventListener('mousedown', showMeIt);
