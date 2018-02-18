@@ -21,4 +21,6 @@ document.querySelectorAll('');
 //For example:
 
 let buttonDelete = document.querySelector('.buttonDelete');
+    
+//Attention - getElementByClassName and getElementByTagName - return so-called live collections in contrast to querySelectorAll.
 
