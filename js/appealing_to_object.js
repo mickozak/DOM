@@ -1,5 +1,11 @@
 //DOM (Document Object Model) - It is a model, interface that using our methods and properties allows us to act on our document.
     
+//The "DOMContentLoaded" event guarantees that the script will start working when the entire "DOM" tree has been loaded.
+
+document.addEventListener("DOMContentLoaded", function() {
+    ...
+});
+
 //Appealing to objects
     
 document.getElementById('');
