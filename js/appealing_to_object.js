@@ -20,7 +20,10 @@ document.querySelectorAll('');
 //We try to save downloaded elements to a variable.
 //For example:
 
-let buttonDelete = document.querySelector('.buttonDelete');
+let liList = document.querySelectorAll('li');
     
-
-
+//Loop after collection:
+    
+for (let i = 0; i<=liList.length; i++){
+    liList.style.color='red';
+}
