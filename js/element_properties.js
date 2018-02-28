@@ -22,4 +22,12 @@ console.log(btn.textContent);
 let div = document.querySelector('title');
 div.innerText='Animal';
 
-//For example: innerHTML, innertext or textContent.
+//For example: tagName.
+
+const btn = document.querySelector('.btn');
+console.log(btn.tagName);
+
+//For example: getAttribute, setAttribute i removeAttribute.
+
+
+
