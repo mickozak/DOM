@@ -7,5 +7,5 @@
 // getAttribute	- gets the element's attribute.
 // dataset - returns the dataset.
 
-
+//For example:
 
