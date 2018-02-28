@@ -1,29 +1,41 @@
-// Relationships between elements
+// Relationships between elements 
 
-/*
-one.parentElement
-one.parentNode 
+let one = document.querySelector('#text');
 
-one.firstChild 
-one.lastChild 
+console.log(one.parentElement); // <div class="textCnt">
 
-one.firstElementChild 
-one.lastElementChild 
+console.log(one.parentNode); // <div class="textCnt">
 
-one.children; 
-one.children[0]
+console.log(one.firstChild); // My
 
-one.firstElementChild.nextElementSibling 
-one.firstElementChild.nextSibling
+console.log(one.lastChild); // #text
 
-one.firstElementChild.previousElementSibling 
-one.firstElementChild.previousSibling 
+console.log(one.firstElementChild); // <strong style="color:green">name</strong>
 
-one.children[0].firstChild
-one.children[0].firstElementChild
+console.log(one.lastElementChild); // <span style="color:orange">Gregory</span>
 
-one.firstChild.firstElementChild
-one.firstElementChild.firstElementChild 
+console.log(one.children); // HTMLCollection(2) [strong, span]
 
-one.firstElementChild.firstChild 
-*/
+console.log(one.children[0]); // <strong style="color:green">name</strong>
+
+console.log(one.childNodes); // NodeList(5) [text, strong, text, span, text]
+
+console.log(one.childNodes[0]); // My
+
+console.log(one.firstElementChild.nextElementSibling); // <span style="color:orange">Gregory</span>
+
+console.log(one.firstElementChild.nextSibling); // is
+
+console.log(one.firstElementChild.previousElementSibling); // null
+
+console.log(one.firstElementChild.previousSibling); // My
+
+console.log(one.children[0].firstChild); // "name"
+ 
+console.log(one.children[0].firstElementChild); // null
+
+console.log(one.firstChild.firstElementChild); // undefined
+
+console.log(one.firstElementChild.firstElementChild); // null
+
+console.log(one.firstElementChild.firstChild); // "name"
