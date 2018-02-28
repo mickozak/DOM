@@ -6,7 +6,6 @@
 // setAttribute	- sets the element's attribute.
 // getAttribute	- gets the element's attribute.
 // removeAttribute - is used to delete the attribute.
-// dataset - returns the dataset.
 
 //For example: innerHTML, innertext or textContent (innerText returns the text after 
 //applying styles, and textContent suppresses styles).
@@ -29,5 +28,7 @@ console.log(btn.tagName);
 
 //For example: getAttribute, setAttribute i removeAttribute.
 
+let submit = form.querySelector(':scope :submit');
+submit.setAttribute('enabled', 'enabled');
 
 
