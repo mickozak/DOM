@@ -5,6 +5,7 @@
 // tagName - returns the tag name.
 // setAttribute	- sets the element's attribute.
 // getAttribute	- gets the element's attribute.
+// removeAttribute - is used to delete the attribute.
 // dataset - returns the dataset.
 
 //For example:
