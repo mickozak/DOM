@@ -18,8 +18,10 @@ let secondObj = document.createElement('div');
 
 //The element can be inserted into the document via parentElement.appendChild(newElement) - for example:
 
-let div = document.querySelector('.firstParagraph');
-    div.appendChild(newObj);
+let body = document.querySelector('body')
+
+    body.appendChild(firstObj);
+    body.appendChild(secondObj);
 
 //Removing elements via parentNode.removeChild(element) - for example:
 
