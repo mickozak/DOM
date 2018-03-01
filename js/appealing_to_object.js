@@ -3,7 +3,7 @@
 //The DOMContentLoaded event guarantees that the script will start working when the entire DOM tree has been loaded.
 
 document.addEventListener("DOMContentLoaded", function() {
-    ...
+    
 });
 
 //Appealing to objects
@@ -22,8 +22,4 @@ document.querySelectorAll('');
 
 let liList = document.querySelectorAll('li');
     
-//Loop after collection:
-    
-for (let i = 0; i<=liList.length; i++){
-    liList.style.color='red';
-}
+console.log(liList);
