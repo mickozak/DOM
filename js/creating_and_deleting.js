@@ -2,12 +2,19 @@
 
 //Creating an object with document.createElement(newElement) - for example:
 
-let newObj = document.createElement('div');
-    newObj.id = 'myObj'
-    newObj.innerText = 'This is...';
-    newObj.setAttribute('title', 'This is new Element');
-    newObj.classList.add('objElement');
-    newObj.style.color = 'red';
+let firstObj = document.createElement('div');
+    firstObj.id = 'firstObj'
+    firstObj.innerText = 'This is...';
+    firstObj.setAttribute('title', 'This is new Element');
+    firstObj.classList.add('objElement');
+    firstObj.style.color = 'red';
+
+let secondObj = document.createElement('div');
+    secondObj.id = 'secondObj'
+    secondObj.innerText = 'My name is...';
+    secondObj.setAttribute('title', 'This is second Element');
+    secondObj.classList.add('firstObj');
+    secondObj.style.color = 'green';
 
 //The element can be inserted into the document via parentElement.appendChild(newElement) - for example:
 
