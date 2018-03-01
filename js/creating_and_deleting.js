@@ -25,9 +25,9 @@ let body = document.querySelector('body')
 
 //Removing elements via parentNode.removeChild(element) - for example:
 
-    div.removeChild(newObj);
+    body.removeChild(secondObj);
 
 //Replacing elements via parent.replaceChild(newChild, oldChild) - for example:
 
-    div.replaceChild(newObj, oldObj);
+    body.replaceChild(secondObj,firstObj);
     
