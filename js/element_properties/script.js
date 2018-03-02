@@ -18,17 +18,14 @@ console.log(btn.textContent);
 
 //or
 
-let div = document.querySelector('title');
-div.innerText='Animal';
+function addDiv (){
+    let div = document.createElement('div');
+    div.innerText='Animal';
+    document.querySelector('body').appendChild(div);
+};
+
+btn.addEventListener('click',addDiv);
 
 //For example: tagName.
 
-const btn = document.querySelector('.btn');
 console.log(btn.tagName);
-
-//For example: getAttribute, setAttribute i removeAttribute.
-
-let submit = form.querySelector(':scope :submit');
-submit.setAttribute('enabled', 'enabled');
-
-
