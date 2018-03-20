@@ -1,3 +1,5 @@
+window.onload = function(){
+
 function setUpEvents(){
 
 var content = document.getElementById("content");
@@ -12,4 +14,5 @@ var button = document.getElementById("show");
       content.classname="open";
       button.innerHTML="Show Less";
     }
+};
 };
