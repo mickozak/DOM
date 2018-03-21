@@ -1,18 +1,18 @@
 window.onload = function(){
 
-function setUpEvents(){
+var content = document.getElementById('content');
+var button = document.getElementById('show-more');
 
-var content = document.getElementById("content");
-var button = document.getElementById("show");
+button.onclick = function(){
   
-  button.onclick = function () {
-    
-    if (content.className = "open"){
-      content.classname="";
-      button.innerHTML="Show More";
+    if (content.className=="open"){
+        content.className="";
+        button.innerHTML="Show More";
+       
     } else {
-      content.classname="open";
-      button.innerHTML="Show Less";
+        content.className="open";
+        button.innerHTML="Show Less";
     }
+    
 };
 };
