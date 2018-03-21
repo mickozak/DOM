@@ -3,4 +3,5 @@ Issues:
 - element properties,
 - creating and deleting,
 - relationship between elements,
-- events.
+- events,
+- example_show_more_or_less.
