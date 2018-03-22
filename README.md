@@ -1,4 +1,4 @@
-# DOM
+# DOM - Document Object Model
 
 Issues:
 - appealing to objects,
